@@ -36,7 +36,7 @@ export default function DigitalAgencyHome() {
       href: '/service',
     },
     {
-      title: 'Monitero de maquinas en tiempo real',
+      title: 'Monitoreo de maquinas en tiempo real',
       href: '/service',
     },
   ];
