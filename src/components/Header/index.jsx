@@ -65,7 +65,15 @@ export default function Header({ variant }) {
                       </NavLink>
 
                     </li>
-                    
+                    <li>
+                      <NavLink
+                        to="portfolio"
+                        onClick={() => setMobileToggle(false)}
+                      >
+                        Portafolio
+                      </NavLink>
+
+                    </li>
                     <li>
                       <NavLink
                         to="/contact"

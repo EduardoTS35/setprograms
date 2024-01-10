@@ -7,29 +7,19 @@ import TextWidget from '../Widget/TextWidget'
 import './footer.scss'
 
 export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
-  const copyrightLinks = [
-    {
-      title: 'Terms of Use',
-      href: '/'
-    },
-    {
-      title: 'Privacy Policy',
-      href: '/'
-    }
-  ]
   
   const serviceMenu = [
     {
       title: 'Cerbero - Monitero de maquinas en tiempo real',
-      href: '/service/service-details'
+      href: '/portfolio/sistema-de-monitoreo'
     },
     {
       title: 'Diseño y desarrollo web',
-      href: '/service/service-details'
+      href: '/contact'
     },
     {
       title: 'Diseño y desarrollo de aplicaciones de escritorio',
-      href: '/service/service-details'
+      href: '/contact'
     },
   ]
 
