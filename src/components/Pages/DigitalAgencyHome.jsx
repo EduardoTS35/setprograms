@@ -2,13 +2,10 @@ import React, { useEffect, useState } from 'react';
 import Hero4 from '../Hero/Hero4';
 import { pageTitle } from '../../helper';
 import Div from '../Div';
-
 import Spacing from '../Spacing';
 import SectionHeading from '../SectionHeading';
 import MovingText2 from '../MovingText/MovingText2';
-
 import Cta from '../Cta';
-import LogoList from '../LogoList';
 
 export default function DigitalAgencyHome() {
   pageTitle('Agencia de software');
@@ -29,29 +26,29 @@ export default function DigitalAgencyHome() {
   const serviceData1 = [
     {
       title: 'Aplicación de almacén',
-      href: '/service',
+      href: '/portfolio/sistema-de-almacen',
     },
     {
       title: 'Aplicación de mantenimiento',
-      href: '/service',
+      href: '/portfolio/sistema-de-mantenimiento',
     },
     {
       title: 'Monitoreo de maquinas en tiempo real',
-      href: '/service',
+      href: 'portfolio/sistema-de-monitoreo',
     },
   ];
   const serviceData2 = [
     {
       title: 'Diseño y desarrollo web',
-      href: '/service',
+      href: '/contact',
       },
       {
       title: 'Diseño y desarrollo de aplicaciones de escritorio',
-      href: '/service',
+      href: '/contact',
       },
       {
       title: 'Desarrollo de ERP',
-      href: '/service',
+      href: '/contact',
       },
   ];
  
@@ -84,19 +81,6 @@ export default function DigitalAgencyHome() {
       <Spacing lg="20" md="10" />
       <MovingText2 reverseDirection data={serviceData2} />
       {/* End Moving Text Section */}
-
-      {/* Start LogoList Section */}
-      <Div className="container">
-        <SectionHeading
-          title="Nuestros colaboradores reconocidos"
-          subtitle="Clientes destacados"
-          variant="cs-style1 text-center"
-        />
-        <Spacing lg="70" md="45" />
-        <LogoList />
-      </Div>
-      <Spacing lg="150" md="80" />
-      {/* End LogoList Section */}
 
       {/* Start CTA Section */}
       <Div className="container">
