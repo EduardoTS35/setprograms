@@ -90,8 +90,13 @@ export default function ServicesPage() {
           title='Ofreciendo las mejores  <br/>tarifas para el cliente' 
           subtitle='Tarifas'
         />
+        <br />
+        <SectionHeading
+          title='' 
+          subtitle='Todos los programas que se encuentran a continuación tienen una tarifa inicial'
+        />
         <Spacing lg='85' md='40'/>
-        <PricingTableList/>
+        <PricingTableList/>z
       </Div>
       <Spacing lg='125' md='55'/>
       

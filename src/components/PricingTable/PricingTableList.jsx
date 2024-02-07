@@ -17,7 +17,7 @@ export default function PricingTableList() {
           {tab==='monthly' && (
             <PricingTable 
               title='Aplicación de almacén'
-              price='799'
+              price='1,599.99'
               currency='$'
               timeline='mensual'
               features={['Sistema de seguridad', 'Conexión báscula', 'Conexión con base de datos', 'Remisiones', 'Reportes por fecha', 'Modular']}
@@ -28,7 +28,7 @@ export default function PricingTableList() {
           {tab==='yearly' && (
             <PricingTable 
               title='Aplicación de almacén'
-              price='7,188'
+              price='15,999.99'
               currency='$'
               timeline='anual'
               features={['Sistema de seguridad', 'Conexión báscula', 'Conexión con base de datos', 'Remisiones', 'Reportes por fecha', 'Modular']}
@@ -42,7 +42,7 @@ export default function PricingTableList() {
          {tab==='monthly' && (
             <PricingTable 
               title='Aplicación de mantenimiento'
-              price='999'
+              price='1,599.99'
               currency='$'
               timeline='mensual'
               features={['Sistema de seguridad', 'Conexión con base de datos', 'Registro de mantenimiento correctivo', 'Registro de mantenimiento preventivo', 'Reportes por fechas', 'Reporte por área', 'Reporte por trabajador']}
@@ -53,7 +53,7 @@ export default function PricingTableList() {
           {tab==='yearly' && (
             <PricingTable 
               title='Aplicación de mantenimiento'
-              price='9,588'
+              price='15,999.99'
               currency='$'
               timeline='anual'
               features={['Sistema de seguridad', 'Conexión con base de datos', 'Registro de mantenimiento correctivo', 'Registro de mantenimiento preventivo', 'Reportes por fechas', 'Reporte por área', 'Reporte por trabajador']}
@@ -67,7 +67,7 @@ export default function PricingTableList() {
           {tab==='monthly' && (
             <PricingTable 
               title='Monitoreo en tiempo real'
-              price='1499'
+              price='1,999.99'
               currency='$'
               timeline='mensual'
               features={['Sistema de seguridad', 'Conexión con base de datos', 'Seguimiento por maquina en tiempo real', 'Reportes por fecha', 'Reportes por maquina']}
@@ -78,7 +78,7 @@ export default function PricingTableList() {
           {tab==='yearly' && (
             <PricingTable 
               title='Monitoreo en tiempo real'
-              price='13,188'
+              price='19,999.99'
               currency='$'
               timeline='anual'
               features={['Sistema de seguridad', 'Conexión con base de datos', 'Seguimiento por maquina en tiempo real', 'Reportes por fecha', 'Reportes por maquina']}
