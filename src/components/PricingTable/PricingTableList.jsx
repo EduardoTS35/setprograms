@@ -5,13 +5,10 @@ import Section from '../Div'
 import Spacing from '../Spacing'
 
 export default function PricingTableList() {
-  const [tab, setTab] = useState('monthly')
+  const [tab] = useState('monthly')
   return (
     <Section className="position-relative">
-      <ul className="cs-tab_links cs-style1 cs-mp0 cs-primary_font">
-        <li className={tab === 'monthly' ? "active" : ""} onClick={()=>setTab('monthly')}>Mensual</li>
-        <li className={tab === 'yearly' ? "active" : ""} onClick={()=>setTab('yearly')}>Anual</li>
-      </ul>
+
       <Section className="row">
         <Section className="col-lg-4">
           {tab==='monthly' && (
@@ -67,8 +64,8 @@ export default function PricingTableList() {
           {tab==='monthly' && (
             <PricingTable 
               title='Monitoreo en tiempo real'
-              price='1,999.99'
-              currency='$'
+              price='2,100.99'
+              currency='Desde $'
               timeline='mensual'
               features={['Sistema de seguridad', 'Conexión con base de datos', 'Seguimiento por maquina en tiempo real', 'Reportes por fecha', 'Reportes por maquina']}
               btnText='Comprar ahora'
