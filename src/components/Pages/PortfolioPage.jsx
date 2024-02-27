@@ -128,7 +128,7 @@ export default function PortfolioPage() {
                 className="cs-text_btn"
                 onClick={() => setItemShow(itemShow + 3)}
               >
-                <span>Load More</span>
+                <span>Cargar más</span>
                 <Icon icon="bi:arrow-right" />
               </span>
             </>
@@ -137,7 +137,7 @@ export default function PortfolioPage() {
       </Div>
       <Spacing lg="145" md="80" />
       <Cta
-        title="agency@arino.com"
+        title="contacto@setprograms.net"
         bgSrc="/images/cta_bg_2.jpeg"
         variant="rounded-0"
       />

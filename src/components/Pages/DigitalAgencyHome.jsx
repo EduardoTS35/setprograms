@@ -62,7 +62,7 @@ export default function DigitalAgencyHome() {
         socialLinksHeading="Síguenos en nuestras redes"
         heroSocialLinks={heroSocialLinks}
         phoneNumber="+52 222 183 6560"
-        email="info@setprograms.com.mx"
+        email="contacto@setprograms.net"
       />
       {/* Start Services Section */}
       <Spacing lg="145" md="80" />
